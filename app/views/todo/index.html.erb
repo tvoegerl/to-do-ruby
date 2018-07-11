@@ -1,1 +1,45 @@
-<h1> Hello, world! </h1>
+ <h1>To-Do</h1>
+        <form action="/action_page.php" method="get">
+          <ol>
+            <li>
+                <input type="checkbox" name="to-do" value="1"> 
+                <a href = "show.html"> Read English Intro and Chapter 1 </a> --
+                <span class="pomodoros">5 pomodoros </span><br>
+            </li>
+            <li> 
+                <input type="checkbox" name="to-do" value="2"> 
+                Do English Assignment -- 
+                <span class="pomodoros">3 pomodoros </span> <br> 
+            </li>
+            <li> 
+                <input type="checkbox" name="to-do" value="3"> 
+                Finish Biology Chapter 50 Guided Notes -- 
+                <span class="pomodoros">2 pomodoros</span> <br> 
+            </li>
+            <li> 
+                <input type="checkbox" name="to-do" value="4"> 
+                Finish Biology Chapter 51 and Notes --
+                <span class="pomodoros">4 pomodoros</span> <br> 
+            </li>
+            <li> 
+                <input type="checkbox" name="to-do" value="5"> 
+                Read Biology Chapter 52 and Notes -- 
+                <span class="pomodoros">8 pomodoros</span> <br> 
+            </li>
+            <li> 
+                <input type="checkbox" name="to-do" value="6"> 
+                Have fun!! -- 
+                <span class="pomodoros">0 pomodoros</span> <br> 
+            </li>
+          </ol></form>
+           <div id="new-todo-block">
+           
+            Add To-do: 
+            <input id="added-to-do" type="text" name="AddedToDo" placeholder="Add a new to-do..."><br>
+            Add Description: 
+            <input id="to-do-description" type="text" name="ToDoDescription" placeholder="Description (optional)..."><br>
+            Number of Pomodoros:
+            <input id="new-pomo-estimate" type="number" name="pomodoros" placeholder="Add pomodoros..."><br>
+
+       <input id="add-new-to-do-button" type="submit" value="Add">
+         </div>
