@@ -39,9 +39,14 @@ h1{
     background-color: #8bb8e8;
 }
 li{padding:10px;
-color:#D671C8;}
+color:#D671C8;
+}
 li:hover{background-color:rgba(225, 245, 254, 0.7);
 border-radius:3px;}
+ol{
+    text-align: center;
+    list-style-position: inside;
+}
 body {
     background-image: url("https://girlwiththecomicbooktattoo.files.wordpress.com/2013/02/flags.jpg");
     background-size: 900px;
@@ -52,4 +57,101 @@ body {
 }
 span{
     color:#006eba;
+}
+.font{font-family:fantasy;
+    font-size:30px;
+    color:#c871d6;
+    margin-top:10px;}
+.font2{
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:20px;
+    color:#D671C8;
+}
+.font3{
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:20px;
+    color: #006eba;
+}
+h2{
+    text-align:center;
+}
+#done-button{
+    background-color:#0a59ad;
+    border:none;
+    color:#929ba3;
+    padding:3px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:pointer;
+    border-radius:50px;}
+#done-button:hover{
+    background-color:#8bb8e8;
+}
+#edit-button{
+    background-color:#0a59ad;
+    border:none;
+    color:#929ba3;
+    padding: 3px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:pointer;
+    border-radius:50px;}
+#edit-button:hover{
+    background-color:#8bb8e8;
+}
+#delete-button{
+    background-color:#0a59ad;
+    border:none;
+    color: #929ba3;
+    padding: 3px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:pointer;
+    border-radius:50px;}
+#delete-button:hover{
+    background-color: #8bb8e8;
+}
+html{
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: center;
+}
+.font{
+    font-family:fantasy;
+    font-size:30px;
+    color:#c871d6;
+    margin-top:10px;
+}
+.font2{
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:20px;
+    color: #D671C8;
+}
+.font3{
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size:20px;
+    color: #006eba;
+}
+#done-button{
+    background-color:#0a59ad;
+    border:none;
+    color:#929ba3;
+    padding:3px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:pointer;
+    border-radius:50px;}
+#done-button:hover{
+    background-color:#8bb8e8;
 }
