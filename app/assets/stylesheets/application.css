@@ -23,6 +23,10 @@ h1{
     color:#c871d6;
     text-align: center;
 }
+.listitem_1
+{
+    text-decoration:line-through;
+}
 #add-new-to-do-button {
     background-color:#0a59ad;
     border:none;
@@ -139,6 +143,21 @@ html{
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size:20px;
     color: #006eba;
+}
+#edit-to-do-button{
+    background-color:#0a59ad;
+    border:none;
+    color:#929ba3;
+    padding:3px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:pointer;
+    border-radius:50px;}
+#edit-to-do-button:hover{
+    background-color:#8bb8e8;
 }
 #done-button{
     background-color:#0a59ad;

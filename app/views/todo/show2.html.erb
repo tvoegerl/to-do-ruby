@@ -2,14 +2,18 @@
         Edit to-do</span> <br>
         <br>
         <span class="font2">
-        Read English Intro and Chapter 1<br>
+        <%= @todo_title =%><br>
         <br>
-        Make sure to use post-it notes!<br></span>
+        <%= @todo_description =%><br></span>
         <span class="font3">
-        5 pomodoros</span><br>
+        <%= @todo_pomodoro_estimate =%> pomodoros</span><br>
         <br>
         Enter edited to-do:
         <input id="edit-to-do" type="text" name="EditToDo" placeholder="Edit to-do title..."><br>
         Enter edited description:
         <input id="edit-description" type="text" name="EditDescription" placeholder="Edit description (optional)..."><br>
+        Enter edited pomodoro estimate:
+        <input id="edit-pomo-estimate" type="number" name="EditDescription" placeholder="Edit pomodoro estimate..."><br>
+        <input id="edit-to-do-button" type="submit" value="Enter"> 
         <a href="https://to-do-app-tvoegerl.c9users.io/todo/index"><input id="done-button" type="submit" value="Done"></a>
+        
