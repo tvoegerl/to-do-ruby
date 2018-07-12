@@ -12,6 +12,13 @@ class TodoController < ApplicationController
         t.save
         redirect_to "/todo/show/#{ t.id }"
     end
+    def edit
+        @todo = Todo.find_by_id(params[:id])
+    end
+    def update
+    end
+    def destroy
+    end
     def show
         @todo=Todo.find_by_id(params[:id])
         @todo_title=" "
