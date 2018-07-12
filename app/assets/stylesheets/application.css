@@ -109,7 +109,7 @@ h2{
 #edit-button:hover{
     background-color:#8bb8e8;
 }
-#delete-button{
+/*#delete-button{
     background-color:#0a59ad;
     border:none;
     color: #929ba3;
@@ -123,7 +123,7 @@ h2{
     border-radius:50px;}
 #delete-button:hover{
     background-color: #8bb8e8;
-}
+}*/
 html{
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-align: center;
@@ -173,4 +173,7 @@ html{
     border-radius:50px;}
 #done-button:hover{
     background-color:#8bb8e8;
+}
+div{
+    cursor: pointer;
 }

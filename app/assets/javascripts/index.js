@@ -21,5 +21,7 @@ $(document).ready(function(){
             return "listitem_1";
         });
     })*/
-
+    $(".deleteMe").on("click", function(){
+       $(this).closest("li").remove(); 
+    });
 })

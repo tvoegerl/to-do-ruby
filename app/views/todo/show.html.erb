@@ -1,10 +1,10 @@
 <h3>Todo #<%=params[:id]=%></h3>
 <h2>
-        <span class="font"><%= @todo_title =%> </span> <br>
+        <span class="font"><%= @todo.description =%> </span> <br>
         <br>
-        <span class="font2"> <%= @todo_description =%></span> <br>
-        <span class="font3"><%= @todo_pomodoro_estimate =%> pomodoros</span> <br> 
-        <a href="https://to-do-app-tvoegerl.c9users.io/todo/index"><input id="done-button" type="submit" value="Done"></a>
-        <a href="https://to-do-app-tvoegerl.c9users.io/todo/show2/:id"><input id="edit-button" type="submit" value="Edit"></a> 
-        <input id="delete-button" type="submit" value="Delete"> 
+        <span class="font2"> <%= @todo.description =%></span> <br>
+        <span class="font3"><%= @todo.pomodoro_estimate =%> pomodoros</span> <br> 
+        <a href="/todo/index"><input id="done-button" type="submit" value="Done"></a>
+        <a href="/todo/show2/<%=params[:id]=%>"><input id="edit-button" type="submit" value="Edit"></a> 
+        <!--<input id="delete-button" type="submit" value="Delete"> -->
 </h2>
