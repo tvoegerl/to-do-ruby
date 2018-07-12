@@ -4,7 +4,7 @@
             <li>
                 <input type="checkbox" id = "check" name=""/>
                 <a href="show/<%= todo.id %>"><%= todo.description %></a> --
-                <span class="pomodoros"><%= todo.pomodoro_estimate %></span>  <div class='deleteMe'>delete</div>
+                <span class="pomodoros"><%= todo.pomodoro_estimate %> pomodoros</span>  <div class='deleteMe'>delete</div>
             </li>
           <% end %>
           <a href="/todo/new">Add new To-do</a>
